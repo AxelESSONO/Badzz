@@ -3,9 +3,10 @@ package com.axel.badzz
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class LaunchedScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.SplashScreenTheme)
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
     }
 }
